@@ -1,0 +1,30 @@
+{
+  "name": "cordova-dependency-fix",
+  "version": "0.1.0",
+  "cordova": {
+    "id": "cordova-dependency-fix",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "dependencies": {
+    "xcode": "^2.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andregrillo/cordova-dependency-fix.git"
+  },
+  "author": "Andre Grillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andregrillo/cordova-dependency-fix/issues"
+  },
+  "homepage": "https://github.com/andregrillo/cordova-dependency-fix",
+  "devDependencies": {}
+}

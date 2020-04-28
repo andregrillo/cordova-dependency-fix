@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="cordova-dependency-fix"
+      version="0.1.0">
+
+    <name>Cordova Node Dependency Fix</name>
+    <license>MIT</license>
+
+    <platform name="ios">		
+		<hook type="before_plugin_install" src="src/installDependencies.js" />
+    </platform>
+
+</plugin>
